@@ -107,7 +107,7 @@ terminal_animate('input')
 
 
 var socket;
-socket = io.connect('http://localhost:3000');
+socket = io.connect('89.58.0.199:47185');
 
 socket.on('input', foreignInput)
 
