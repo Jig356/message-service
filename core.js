@@ -105,9 +105,11 @@ var t = setInterval(() => {
 
 terminal_animate('input')
 
-
+var options = {
+    rejectUnauthorized:false
+}
 var socket;
-socket = io.connect('89.58.0.199:47185');
+socket = io.connect('89.58.0.199:47185', options);
 
 socket.on('input', foreignInput)
 
