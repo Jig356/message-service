@@ -107,7 +107,7 @@ terminal_animate('input')
 
 
 var socket;
-socket = io.connect('89.58.0.199:47185');
+socket = io.connect('v2202111161461170277.happysrv.de:47185');
 
 socket.on('input', foreignInput)
 
