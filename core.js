@@ -109,7 +109,7 @@ var options = {
     rejectUnauthorized:false
 }
 var socket;
-socket = io.connect('89.58.0.199:47185', options);
+socket = io.connect('89.58.0.199:3000', options);
 
 socket.on('input', foreignInput)
 
